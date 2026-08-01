@@ -14,4 +14,10 @@
         android:summary="@string/screenshot_clipboard_only_summary"
         android:defaultValue="false" />
 
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="hide_status_bar_in_screenshot"
+        android:title="@string/hide_status_bar_in_screenshot_title"
+        android:summary="@string/hide_status_bar_in_screenshot_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
