@@ -107,6 +107,18 @@
             </intent-filter>
         </activity-alias>
 
+        <!-- Thermal settings (Battery category) -->
+        <activity-alias
+            android:name=".thermal.ThermalSettings"
+            android:exported="true"
+            android:label="@string/thermal_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter>
+                <action android:name="org.lineageos.lineageparts.THERMAL_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+
         <!-- LiveDisplay settings (Display category) -->
         <activity-alias
             android:name=".livedisplay.LiveDisplaySettings"

@@ -23,6 +23,11 @@
           android:fragment="org.lineageos.lineageparts.health.ChargingControlSettings"
           lineage:xmlRes="@xml/charging_control_settings" />
 
+    <part android:key="thermal"
+          android:title="@string/thermal_title"
+          android:fragment="org.lineageos.lineageparts.thermal.ThermalSettings"
+          lineage:xmlRes="@xml/thermal_settings" />
+
     <part android:key="battery_lights"
           android:title="@string/battery_light_title"
           android:fragment="org.lineageos.lineageparts.notificationlight.BatteryLightSettings"

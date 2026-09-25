@@ -85,6 +85,13 @@
     <string name="charging_control_limit_title">Limit</string>
     <string name="charging_control_limit_summary">Current limit: %d%%</string>
 
+    <!-- Thermal settings -->
+    <string name="thermal_title">Thermals</string>
+    <string name="thermal_cpu_limit_title">CPU max temperature</string>
+    <string name="thermal_battery_limit_title">Battery max temperature</string>
+    <string name="thermal_summary">%1$s · Current: %2$s</string>
+    <string name="thermal_active"> · Active</string>
+
     <!-- Battery light settings -->
     <string name="battery_light_title">Battery light</string>
     <string name="battery_light_enable_title">Enable battery light</string>

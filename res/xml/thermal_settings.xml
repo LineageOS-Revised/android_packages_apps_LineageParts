@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="thermal"
+    android:title="@string/thermal_title">
+
+    <ListPreference
+        android:key="thermal_cpu_limit"
+        android:title="@string/thermal_cpu_limit_title"
+        android:persistent="false"
+        android:entries="@array/thermal_cpu_limit_entries"
+        android:entryValues="@array/thermal_cpu_limit_values" />
+
+    <ListPreference
+        android:key="thermal_battery_limit"
+        android:title="@string/thermal_battery_limit_title"
+        android:persistent="false"
+        android:entries="@array/thermal_battery_limit_entries"
+        android:entryValues="@array/thermal_battery_limit_values" />
+
+</PreferenceScreen>
