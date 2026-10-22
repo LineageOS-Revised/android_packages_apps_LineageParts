@@ -519,6 +519,8 @@
 
     <!-- Screenshot -->
     <string name="screenshot_settings_title">Screenshot</string>
+    <string name="screenshot_clipboard_only_title">Copy to clipboard only</string>
+    <string name="screenshot_clipboard_only_summary">Copy screenshot to clipboard instead of saving in storage</string>
 
     <!-- Status bar - Padding -->
     <string name="status_bar_padding_title">Padding (dp)</string>

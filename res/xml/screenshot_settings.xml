@@ -6,4 +6,12 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:key="screenshot_settings"
-    android:title="@string/screenshot_settings_title" />
+    android:title="@string/screenshot_settings_title">
+
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="screenshot_clipboard_only"
+        android:title="@string/screenshot_clipboard_only_title"
+        android:summary="@string/screenshot_clipboard_only_summary"
+        android:defaultValue="false" />
+
+</PreferenceScreen>
