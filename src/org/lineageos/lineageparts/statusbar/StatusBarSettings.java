@@ -27,6 +27,7 @@ import lineageos.providers.LineageSettings;
 import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.SettingsPreferenceFragment;
 import org.lineageos.lineageparts.utils.DeviceUtils;
+import org.lineageos.lineageparts.widget.StatusBarPaddingPreference;
 
 public class StatusBarSettings extends SettingsPreferenceFragment {
 
@@ -72,6 +73,14 @@ public class StatusBarSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.status_bar_settings);
+
+        findPreference("status_bar_padding_reset").setOnPreferenceClickListener(p -> {
+            for (String key : new String[] {"status_bar_padding_left",
+                    "status_bar_padding_right", "status_bar_padding_top"}) {
+                ((StatusBarPaddingPreference) findPreference(key)).reset();
+            }
+            return true;
+        });
 
         mStatusBarAmPm = findPreference(STATUS_BAR_AM_PM);
         mStatusBarClock = findPreference(STATUS_BAR_CLOCK_STYLE);

@@ -517,6 +517,13 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
+    <!-- Status bar - Padding -->
+    <string name="status_bar_padding_title">Padding (dp)</string>
+    <string name="status_bar_padding_left_title">Left</string>
+    <string name="status_bar_padding_right_title">Right</string>
+    <string name="status_bar_padding_top_title">Top</string>
+    <string name="status_bar_padding_reset_title">Reset to default</string>
+
     <!-- Status bar - Brightness -->
     <string name="status_bar_brightness_category">Brightness</string>
     <string name="status_bar_brightness_slider_title">Brightness slider</string>
