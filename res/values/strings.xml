@@ -517,6 +517,9 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
+    <!-- Screenshot -->
+    <string name="screenshot_settings_title">Screenshot</string>
+
     <!-- Status bar - Padding -->
     <string name="status_bar_padding_title">Padding (dp)</string>
     <string name="status_bar_padding_left_title">Left</string>
