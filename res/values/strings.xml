@@ -473,6 +473,10 @@
     <string name="dynamic_island_stopwatch_summary">Show stopwatch progress and controls in the island</string>
     <string name="dynamic_island_live_scores_title">Live scores</string>
     <string name="dynamic_island_live_scores_summary">Show live match scores from sports app notifications (Google, ESPN, FotMob, OneFootball, SofaScore, Cricbuzz and more). Turn on live match notifications in the sports app.</string>
+    <string name="dynamic_island_delivery_title">Delivery tracking</string>
+    <string name="dynamic_island_delivery_summary">Show order status and arrival time from Swiggy, Zomato, Blinkit, Zepto and other delivery apps</string>
+    <string name="dynamic_island_transfers_title">Download and upload progress</string>
+    <string name="dynamic_island_transfers_summary">Show progress of downloads, uploads and app installs from any app</string>
     <string name="dynamic_island_lyrics_title">Show lyrics</string>
     <string name="dynamic_island_lyrics_summary">Show lyrics for supported apps in a card below the music card in the island</string>
     <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
