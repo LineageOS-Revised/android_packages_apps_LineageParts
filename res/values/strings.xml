@@ -477,6 +477,8 @@
     <string name="dynamic_island_delivery_summary">Show order status and arrival time from Swiggy, Zomato, Blinkit, Zepto and other delivery apps</string>
     <string name="dynamic_island_transfers_title">Download and upload progress</string>
     <string name="dynamic_island_transfers_summary">Show progress of downloads, uploads and app installs from any app</string>
+    <string name="dynamic_island_system_monitor_title">System monitor</string>
+    <string name="dynamic_island_system_monitor_summary">Show CPU, memory, GPU, battery and top processes in the island. Open it from the System monitor quick settings tile</string>
     <string name="dynamic_island_lyrics_title">Show lyrics</string>
     <string name="dynamic_island_lyrics_summary">Show lyrics for supported apps in a card below the music card in the island</string>
     <string name="status_bar_double_tap_to_sleep_title">Double-tap to sleep</string>
