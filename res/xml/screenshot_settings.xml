@@ -8,11 +8,13 @@
     android:key="screenshot_settings"
     android:title="@string/screenshot_settings_title">
 
-    <lineageos.preference.SystemSettingSwitchPreference
+    <ListPreference
         android:key="screenshot_clipboard_only"
-        android:title="@string/screenshot_clipboard_only_title"
-        android:summary="@string/screenshot_clipboard_only_summary"
-        android:defaultValue="false" />
+        android:title="@string/screenshot_clipboard_title"
+        android:summary="%s"
+        android:entries="@array/screenshot_clipboard_entries"
+        android:entryValues="@array/screenshot_clipboard_values"
+        android:persistent="false" />
 
     <lineageos.preference.SystemSettingSwitchPreference
         android:key="hide_status_bar_in_screenshot"

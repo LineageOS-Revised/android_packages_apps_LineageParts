@@ -528,8 +528,10 @@
 
     <!-- Screenshot -->
     <string name="screenshot_settings_title">Screenshot</string>
-    <string name="screenshot_clipboard_only_title">Copy to clipboard only</string>
-    <string name="screenshot_clipboard_only_summary">Copy screenshot to clipboard instead of saving in storage</string>
+    <string name="screenshot_clipboard_title">After capture</string>
+    <string name="screenshot_clipboard_save">Save to storage</string>
+    <string name="screenshot_clipboard_save_and_copy">Save and copy to clipboard</string>
+    <string name="screenshot_clipboard_copy_only">Copy to clipboard only</string>
     <string name="hide_status_bar_in_screenshot_title">Hide status bar in screenshots</string>
     <string name="hide_status_bar_in_screenshot_summary">Hide status bar content from full screenshots</string>
 
