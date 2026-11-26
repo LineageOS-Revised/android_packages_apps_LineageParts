@@ -534,6 +534,8 @@
     <string name="screenshot_clipboard_copy_only">Copy to clipboard only</string>
     <string name="hide_status_bar_in_screenshot_title">Hide status bar in screenshots</string>
     <string name="hide_status_bar_in_screenshot_summary">Hide status bar content from full screenshots</string>
+    <string name="three_finger_gesture_title">Three finger swipe</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
     <!-- Status bar - Padding -->
     <string name="status_bar_padding_title">Padding (dp)</string>
